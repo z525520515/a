@@ -11,6 +11,7 @@ public class CookieUtil {
 	 * @param name
 	 * @param value
 	 * @param maxAge
+	 * 1
 	 */
 	public static void setCookie(HttpServletResponse response,
 			String name, String value, String domain, String path, int maxAge) {
